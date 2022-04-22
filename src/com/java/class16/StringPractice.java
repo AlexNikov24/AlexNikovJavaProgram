@@ -1,17 +1,19 @@
-package com.java.class15;
+package com.java.class16;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class ReverseString {
+public class StringPractice {
+
     public static void main(String[] args) {
-        System.out.println("Enter any string: ");
+        System.out.println("Please enter any string");
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
 
-        for (int i = str.length() - 1; i >= 0; i--) {
 
+        for(int i = str.length() - 1; i>=0; i--){
 
             System.out.print(str.charAt(i));
         }
+
     }
 }

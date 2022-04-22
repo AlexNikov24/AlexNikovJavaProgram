@@ -62,7 +62,9 @@ public class StringMetodsPractice {
 
         // 9. Replace & ReplaceAll
         str1 = "INR 200 INR 300 INR 500";
-        System.out.println("9. Replace: " + str1.replace("INR", "USD"));
+        System.out.println("9. Replace: " + str1.replace("INR", "USD"  ));
+
+
         System.out.println("===========================================");
 
         // 10. Format
@@ -73,16 +75,16 @@ public class StringMetodsPractice {
         // 11. SubString
         str1 = "Welcome to java class";
         System.out.println(str1.substring(7));
-        System.out.println(str1.substring(0,7));
+        System.out.println(str1.substring(0, 7));
 
         System.out.println("===========================================");
 
         // 12. Split
-         str1 = "Welcome to java class";
+        str1 = "Welcome to java class";
         String[] words = str1.split(" ");
         System.out.println(words.length);
 
-        for(int i=0; i< words.length; i++) {
+        for (int i = 0; i < words.length; i++) {
             System.out.println(words[i]);
         }
 

@@ -13,5 +13,6 @@ public class FindEachComponentOfAddress {
         System.out.println(words[3]);
         System.out.println(words[4]);
         System.out.println(words[5]);
+        System.out.println(words[6]);
     }
 }
